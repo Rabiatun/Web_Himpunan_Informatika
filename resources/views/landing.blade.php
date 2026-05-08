@@ -33,8 +33,8 @@
                 </div>
 
                 <a href="#kontak" class="text-gray-600 hover:text-blue-600 font-medium">Kontak</a>
-                <a href="#" class="bg-blue-500 hover:bg-blue-600 text-white px-4 py-2 rounded-md font-medium transition duration-300">Masuk</a>
-                <a href="#" class="bg-green-500 hover:bg-green-600 text-white px-4 py-2 rounded-md font-medium transition duration-300">Daftar</a>
+                <a href="{{ route('mahasiswa.login') }}" class="bg-blue-500 hover:bg-blue-600 text-white px-4 py-2 rounded-md font-medium transition duration-300">Masuk</a>
+                <a href="{{ route('mahasiswa.register') }}" class="bg-green-500 hover:bg-green-600 text-white px-4 py-2 rounded-md font-medium transition duration-300">Daftar</a>
             </nav>
 
             {{-- Tombol untuk Menu Mobile (jika Anda ingin menambahkannya nanti) --}}

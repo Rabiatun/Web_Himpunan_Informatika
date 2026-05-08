@@ -1,0 +1,9 @@
+landing page:
+http://127.0.0.1:8000/
+
+
+khusus jalur admin:
+http://127.0.0.1:8000/admin/hmit-admin-2026/login
+
+email admin: admin@hmit.ac.id
+password: Admin_1234
